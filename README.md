@@ -11,7 +11,7 @@ Ajax Request/Response Library
 var ajax = AjaxRequest();
 ```
 
-## Usage
+## Request
 ```javascript
 ajax.request({
 	debug: true,
@@ -22,6 +22,7 @@ ajax.request({
 });
 ```
 
+## Response
 ```php
 $ajax = new AjaxResponse();
 
