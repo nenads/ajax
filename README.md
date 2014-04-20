@@ -12,7 +12,6 @@ Ajax Request/Response Library
 var ajax = AjaxRequest();
 
 ajax.request({
-	debug: true,
 	url: 'path/to/ajax.php',
 	data: {
 		foo: 'bar'
