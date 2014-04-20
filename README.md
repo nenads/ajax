@@ -6,13 +6,10 @@ Ajax Request/Response Library
 <script src="/path/to/ajax-request.js"></script>
 ```
 
-## Initialization
-```javascript
-var ajax = AjaxRequest();
-```
-
 ## Request
 ```javascript
+var ajax = AjaxRequest();
+
 ajax.request({
 	debug: true,
 	url: 'path/to/ajax.php',
