@@ -6,7 +6,8 @@ Ajax Request/Response Library
 <script src="/path/to/ajax-request.js"></script>
 ```
 
-## Request
+## Basic Usage
+### Request
 ```javascript
 var ajax = AjaxRequest();
 
@@ -19,8 +20,10 @@ ajax.request({
 });
 ```
 
-## Response
+### Response
 ```php
+include 'AjaxResponse.php';
+
 $ajax = new AjaxResponse();
 
 $ajax->alert('foo');
