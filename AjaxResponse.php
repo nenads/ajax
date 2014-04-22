@@ -20,16 +20,12 @@ class AjaxResponse {
 		return array_shift($this->buffer);
 	}
 
-	public function clearBuffer() {
+	public function clear() {
 		$this->buffer = array();
 	}
 
-	public function bufferSize() {
+	public function count() {
 		return count($this->buffer);
-	}
-
-	public function getBuffer($jsonEncode = false) {
-		$this->get($jsonEncode);
 	}
 
 	public function get($jsonEncode = false) {
