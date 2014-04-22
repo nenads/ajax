@@ -5,7 +5,7 @@ class AjaxResponse {
 	private $buffer;
 
 	public function __construct() {
-		$this->clearBuffer();
+		$this->clear();
 	}
 
 	public function __call($name, $arguments) {
