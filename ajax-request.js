@@ -146,6 +146,7 @@ var AjaxRequest = function(settings) {
 	};
 
 	$ajax.fn.exec = function(script) {
+		var object = this.object(this, null);
 		eval(script);
 	};
 
