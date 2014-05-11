@@ -15,6 +15,14 @@
     "require": {
         "php": ">=5.4.0"
     },
+	"scripts": {
+		"post-install-cmd": [
+			"php artisan asset:publish djereg/ajax"
+		],
+		"post-update-cmd": [
+			"php artisan asset:publish djereg/ajax"
+		]
+	},
 
     "autoload": {
 		"classmap": ["src"]
