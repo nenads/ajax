@@ -16,10 +16,10 @@
         "php": ">=5.4.0"
     },
 	"scripts": {
-		"post-install-cmd": [
+		"post-package-install": [
 			"php artisan asset:publish djereg/ajax"
 		],
-		"post-update-cmd": [
+		"post-package-update": [
 			"php artisan asset:publish djereg/ajax"
 		]
 	},
