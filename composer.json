@@ -1,6 +1,6 @@
 {
     "name": "djereg/ajax",
-    "description": "jQuery's Ajax wrapper with useful methods, and PHP side response library.",
+    "description": "Cliet side wrapper for jQuery's Ajax with some useful methods, and PHP side response library.",
     "keywords": ["laravel", "jquery", "ajax", "request"],
     "license": "MIT",
     "version": "1.0.0",
@@ -15,15 +15,6 @@
     "require": {
         "php": ">=5.4.0"
     },
-	"scripts": {
-		"post-package-install": [
-			"php artisan asset:publish djereg/ajax"
-		],
-		"post-package-update": [
-			"php artisan asset:publish djereg/ajax"
-		]
-	},
-
     "autoload": {
 		"classmap": ["src"]
     }
