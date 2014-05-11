@@ -20,7 +20,5 @@
         "psr-0": {
             "AjaxResponse": "src/"
         }
-    },
-
-    "minimum-stability": "dev"
+    }
 }
