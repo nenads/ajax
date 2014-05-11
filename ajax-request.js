@@ -194,8 +194,9 @@ var AjaxRequest = function(settings) {
 	};
 
 	$ajax.fn.call = function(name, args) {
-		if (this.object(this)[name]) {
-			this.object(this)[name].apply(this || window, args);
+		var object = this.object(this, null);
+		if (object[name]) {
+			object[name].apply(object || window, args);
 		} else {
 			$ajax.error("The Object::" + name + "() method not found");
 		}
