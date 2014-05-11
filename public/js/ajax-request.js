@@ -217,3 +217,6 @@ var AjaxRequest = function(settings) {
 if (typeof ajax == 'undefined') {
 	ajax = new AjaxRequest();
 }
+
+
+// just a test
