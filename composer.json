@@ -17,8 +17,6 @@
     },
 
     "autoload": {
-        "psr-0": {
-            "AjaxResponse": "src/"
-        }
+		"classmap": ["src"]
     }
 }
